@@ -37,7 +37,8 @@ jobs:
       - name: Build project
         run: |
           npm run build
-      - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Commit and push changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          commit_message: 数据更新
