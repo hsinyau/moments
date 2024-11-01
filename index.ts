@@ -27,8 +27,7 @@ async function main() {
   const now = new Date();
 
   await rm("./README.md", { force: true });
-  await writeFile(
-    "./README.md",
+  await writeFile("./README.md",
     `# moments
 
 更新于：${now.toLocaleString(undefined, {
