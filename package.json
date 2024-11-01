@@ -1,0 +1,29 @@
+{
+  "name": "@hsinyau/moments",
+  "private": true,
+  "version": "0.0.1",
+  "description": "hsinyau's moments~",
+  "type": "module",
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "build": "tsx index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsinyau/moments.git"
+  },
+  "keywords": [],
+  "author": "hsinyau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsinyau/moments/issues"
+  },
+  "homepage": "https://github.com/hsinyau/moments#readme",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.6"
+  }
+}
